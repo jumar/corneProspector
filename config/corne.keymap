@@ -52,7 +52,7 @@
         };
         
         sym_num_layer {
-            display-name = "Symbols&Numpad";
+            display-name = "Sym&Num";
             bindings = <
 &kp ESC   &kp EXCL     &kp EQUAL          &kp LPAR   &kp RPAR   &kp PIPE    &kp UNDER    &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_PLUS       &kp KP_NUMLOCK
 &none     &kp PERCENT  &bhm LSHIFT ASTRK  &kp LBRC   &kp RBRC   &kp AMPS    &kp AT       &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_MINUS      &none
@@ -62,7 +62,7 @@
         };
 
         mouse_media_layer {
-            display-name = "Mouse&Media";
+            display-name = "Mouse";
             bindings = <
 &bt BT_SEL 0 &none  &none  &none  &none  &bt BT_CLR  &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &none  &none
 &bt BT_SEL 1 &none  &none  &none  &none  &none       &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &none  &none
@@ -72,7 +72,7 @@
         };
 
         nav_layer {
-            display-name = "Navigation";
+            display-name = "Nav";
             bindings = <
 &kp PSCRN  &none  &none   &none   &none   &none  &kp PG_UP  &kp HOME  &kp UP    &kp END    &none      &kp PSCRN
 &none      &none  &trans  &trans  &trans  &none  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp K_APP  &none
@@ -103,3 +103,4 @@
         
     };
 };
+asdd
