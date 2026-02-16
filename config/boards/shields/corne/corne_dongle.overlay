@@ -10,6 +10,7 @@
     chosen {
         zmk,kscan = &mock_kscan;
         wakeup-source;
+        zephyr,display = &st7789;
     };
 
     mock_kscan: kscan_1 {
